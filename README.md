@@ -1,2 +1,5 @@
-# Bachelor-Thesis
 Feature Extraction From a K-Nearest Neighbour Graph 
+
+The aim of this experiment is to detect spatially variable genes from a K-nearest-neighbour (KNN) graph using the SPACO algorithm. In this case, the KNN graph will be constructed from a single cell RNA sequencing dataset of the mouse hippocampus. In this graph, each node will represent a spatial spot and the edges between the nodes represents the spatial proximity of the spots.  
+Furthermore, this project also aims to determine the ability of the SPACO algorithm to replace the principal component analysis (PCA) as a dimensionality reduction method, whilst detecting spatial variable genes. Two spatial datasets of the Sagittal mouse brain Anterior, which was obtained from 10x Genomics will also be utilized for this experiment.
+The Spatial Component Analysis (SPACO) is a proximity-aware algorithm that was developed by the AG-Tresch group of the Institute of Medical Statistics and Bioinformatics at the University of Cologne. SPACO introduces a multivariate approach towards the Moran’s I and Geary’s C statistics. Using this approach, multiple genes with high spatial variabilities are simultaneously identified while taking into consideration the relationship between these genes with their spatial correlations.
